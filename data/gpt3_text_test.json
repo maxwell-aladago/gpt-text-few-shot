@@ -1,0 +1,802 @@
+{
+  "face powder": {
+    "0": "A face powder is a cosmetic powder that is applied to the face to give it a matte appearance.",
+    "1": "A face powder is a cosmetic powder that is applied to the face to improve the appearance of the skin. It may also be used to reduce the shine of the face.",
+    "2": "A face powder is a cosmetic powder that is applied to the face to improve complexion, cover blemishes, and absorb oil."
+  },
+  "menu": {
+    "0": "A typical menu contains a list of food and drink items that a restaurant offers. It usually has a section for appetizers, main courses, and desserts. It may also list the restaurant's specials.",
+    "1": "that you would create for a vegan Thanksgiving feast\n\nThis menu would include dishes such as roasted portobello caps with roasted Brussels sprouts and roasted sweet potatoes. There would also be a vegan version of stuffing, cranberry sauce, and pumpkin pie.",
+    "2": "item\n\nA menu item is a food or drink that is offered for sale at a restaurant or other food service establishment."
+  },
+  "plate": {
+    "0": "A plate is a flat, round object that is used to hold food. It is usually made of ceramic or porcelain.",
+    "1": "of food\n\nA plate of food typically contains a main dish, a side dish, and a drink. The main dish is the largest and most important part of the meal. The side dish is usually smaller than the main dish and is meant to compliment the main dish. The drink can be anything from water to a soft drink to coffee or tea.",
+    "2": "A plate is a flat, circular object that is used to eat food from. It is usually made of ceramic or glass and has a raised edge around the circumference to prevent food from slipping off."
+  },
+  "guacamole": {
+    "0": "A guacamole is a dip or sauce made from avocados, typically combined with lime juice, onion, chili pepper, and salt.",
+    "1": "A guacamole is a dip or sauce made from mashed avocados, typically mixed with lime juice, salt, and chili pepper. Additional ingredients, such as onion, garlic, or tomato, may also be added.",
+    "2": "A guacamole is a dip made from avocados, lime juice, salt, and chili peppers."
+  },
+  "consomme": {
+    "0": "A consomme is a clear soup that is typically made from beef or chicken broth. It is often served with vegetables or noodles.",
+    "1": "A consomme is a clear soup made from beef, chicken, or fish stock that is thickened with a roux or a starch. It is usually served with small pieces of cooked meat, vegetables, or noodles.",
+    "2": "A consomme is a clear soup made from beef, chicken, or fish stock that is thickened with a roux or a starch."
+  },
+  "hot pot": {
+    "0": "A hot pot is a type of soup that is cooked at the table. It is made with a variety of ingredients, including meat, seafood, vegetables, and noodles.",
+    "1": "A hot pot is a type of soup or stew that is cooked at the table in a pot that is kept hot by a burner. The soup or stew is usually made with meat, vegetables, and noodles or dumplings.",
+    "2": "A hot pot is a type of soup that is cooked in a pot at the table. The soup is made with meat, vegetables, and noodles."
+  },
+  "trifle": {
+    "0": "A trifle is a dessert that is made with layers of cake, pudding, and whipped cream.",
+    "1": "",
+    "2": ""
+  },
+  "ice cream": {
+    "0": "Ice cream is a food that is typically made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavors.",
+    "1": "There are many flavors of ice cream, but they all have one thing in common: they are all cold, creamy, and delicious.",
+    "2": "Ice cream is a dessert that is made from milk, cream, sugar, and flavorings. It is usually frozen and served in a cone or a bowl."
+  },
+  "ice lolly": {
+    "0": "A ice lolly is a type of ice pop that is made from flavored ice and often contains pieces of fruit.",
+    "1": "A ice lolly is a type of ice pop that is made from flavored ice and fruit juice.",
+    "2": "A ice lolly is a type of frozen dessert made from flavored ice and water. It is often eaten as a snack or a dessert."
+  },
+  "cheeseburger": {
+    "0": "A cheeseburger is a sandwich that consists of one or more hamburger patties and cheese slices, usually placed on a hamburger bun.",
+    "1": "A cheeseburger is a hamburger with cheese on it.",
+    "2": "A cheeseburger is a hamburger that is topped with cheese."
+  },
+  "hotdog": {
+    "0": "A hotdog is a type of sausage that is usually served in a bun. It is usually made from pork, beef, or turkey.",
+    "1": "A hotdog is a type of sausage that is usually served in a bun.",
+    "2": "A hotdog is a sausage that is usually grilled or boiled and served in a bun."
+  },
+  "hay": {
+    "0": "stack\n\nA haystack is a large pile of hay.",
+    "1": "stack\n\nA haystack is a large stack of hay, typically used as feed for livestock.",
+    "2": ""
+  },
+  "carbonara": {
+    "0": "A carbonara is a pasta dish that is made with bacon, eggs, and Parmesan cheese.",
+    "1": "A carbonara is a pasta dish made with bacon, eggs, and Parmesan cheese.",
+    "2": ""
+  },
+  "chocolate sauce": {
+    "0": "A chocolate sauce is a sweet sauce typically made from chocolate, cream, and sugar. It is often used as a topping for desserts, such as ice cream.",
+    "1": "A chocolate sauce is a sweet, viscous sauce typically made from chocolate, cream, and sugar. It is used as a topping or filling for desserts such as ice cream, cakes, and brownies.",
+    "2": "A chocolate sauce is a thick, smooth sauce that is typically made from chocolate, cream, and butter. It is often used as a topping for desserts, such as ice cream or cake."
+  },
+  "dough": {
+    "0": "nut\n\nA doughnut is a type of pastry that is made from deep-fried dough. It is typically shaped into a ring with a hole in the center and has a sweet and/or savory filling.",
+    "1": "nut\n\nA doughnut is a type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in various forms as a sweet snack that can be eaten as is, or filled with jam, jelly, cream, custard, or other fillings.",
+    "2": "nut\n\nA doughnut is a type of fried dough confectionery or dessert food. The doughnut is popular in many countries and prepared in many different ways."
+  },
+  "pizza": {
+    "0": "A pizza is a food that is made from bread dough that is topped with sauce, cheese, and other toppings.",
+    "1": "A pizza is a flatbread typically topped with tomato sauce and cheese. Additional toppings may include pepperoni, sausage, mushrooms, olives, and onions.",
+    "2": "A pizza is a type of bread that is topped with sauce, cheese, and other toppings."
+  },
+  "potpie": {
+    "0": "A potpie is a dish that is made from a filling that is cooked in a pot, and a pastry crust that is put over the top.",
+    "1": "A potpie is a dish that is made of a filling that is cooked in a pastry shell.",
+    "2": "A potpie is a dish that is made out of a pie crust that is filled with a variety of different meats and vegetables."
+  },
+  "burrito": {
+    "0": "A burrito is a type of Mexican food that is made by wrapping a tortilla around a filling. The filling is usually a combination of meat, cheese, and vegetables.",
+    "1": "A burrito is a type of Mexican food that is made by wrapping a tortilla around a filling. The filling is usually made of meat, rice, and beans.",
+    "2": "A burrito is a type of Mexican food that is made by wrapping a tortilla around a filling. The most common fillings are meat, cheese, and vegetables."
+  },
+  "red wine": {
+    "0": "A red wine is a type of wine made from black grapes.",
+    "1": "A red wine is a type of wine that is made from dark-colored grape varieties. The color of the wine can range from intense violet, to deep red, to brown. The flavor can be fruity or earthy, and the tannins can be strong.",
+    "2": "A red wine is a type of wine that is made from dark-colored grape varieties. The color of the wine can range from intense violet, deep red, or purple to a brownish red."
+  },
+  "espresso": {
+    "0": "A espresso is a coffee drink that is made by forcing hot water through finely ground coffee beans.",
+    "1": "A espresso is a strong, black coffee made by forcing hot water through finely ground coffee beans.",
+    "2": ""
+  },
+  "cup": {
+    "0": "of coffee\n\nA cup of coffee is a drink made from roasted coffee beans. Coffee is usually served hot, and is a popular drink in many parts of the world.",
+    "1": "of coffee\n\nA cup of coffee is a hot drink made from roasted coffee beans, typically served in a ceramic cup with a handle. The coffee is brewed by pouring hot water over the grounds, which are then filtered out.",
+    "2": "A cup is a small, round, open container that is used to hold liquids. It has a handle on one side and a small opening on the top."
+  },
+  "eggnog": {
+    "0": "Eggnog is a drink made from milk, eggs, sugar, and spices.",
+    "1": "Eggnog is a beverage typically made from milk, cream, sugar, whipped eggs, and egg yolks. It is often served with a sprinkling of ground nutmeg on top.",
+    "2": "A drink made from milk, sugar, eggs, and spices, usually served cold or whipped."
+  },
+  "tench": {
+    "0": "A tench is a freshwater fish that is typically found in slow-moving rivers and lakes. They have a long, slender body and can grow up to 2 feet in length. They are a dark green or brown color with a silver or black stripe along their sides. They have a small, cone-shaped head and a wide mouth. They feed on insects, crustaceans, and other small aquatic creatures.",
+    "1": "A tench is a fish that is found in Europe and Asia. They have a greenish-brown color and can grow up to 2 feet in length. They are a bottom-feeding fish and eat insects, crustaceans, and other small fish.",
+    "2": "A tench is a type of fish that is typically found in freshwater environments. They have a deep, cylindrical body and a large, flattened head. They typically grow to lengths of around 24 inches, and can weigh up to 10 pounds. They are a popular game fish, and are also used for angling."
+  },
+  "goldfish": {
+    "0": "A goldfish is a small, slim fish that is usually a golden color. They have a long, thin tail and a smooth body. Goldfish are a common pet and can be found in many home aquariums.",
+    "1": "Goldfish are small, slim fish that come in a range of different colors, including gold, white, and black. They have a smooth, slim body and a long, flowing tail. Goldfish typically live for around 10 years and can grow up to 12 inches in length.",
+    "2": "A goldfish is a small, freshwater fish. They are typically about 8-10 inches long, but can get up to 12 inches long. They have a long, slender body and a single tail. Goldfish come in many different colors, including gold, red, white, and black. They are a popular pet fish because they are easy to care for and can live for up to 10 years."
+  },
+  "great white shark": {
+    "0": "A great white shark is a large, predatory fish that lives in the ocean. It has a torpedo-shaped body, a pointed snout, and large, triangular teeth. It is a fierce predator that feeds on fish, seals, and other marine animals.",
+    "1": "A great white shark is a large, predatory fish that lives in the ocean. It has a streamlined body, a long snout, and a large dorsal fin. It is gray or white in color and can grow up to 20 feet long. Great white sharks are carnivores and eat fish, seals, and other marine animals. They are considered dangerous to humans and have been known to attack people.",
+    "2": "A great white shark is a large predatory fish that lives in the ocean. It has a torpedo-shaped body, a pointed snout, and large teeth. It is the largest known species of shark."
+  },
+  "tiger shark": {
+    "0": "A tiger shark is a large predatory fish with a streamlined body and a long, pointed snout. They have a dark brown or black back, and light underparts. They can grow up to 18 feet long and weigh up to 1,500 pounds. Tiger sharks are one of the most dangerous sharks in the world, and are known to attack humans.",
+    "1": "The tiger shark is a large predatory fish, up to 3.3 m long and weighing up to 680 kg. It has a streamlined body with a broad, flat head and a long, pointed snout. The teeth are sharp and triangular, and the jaws are powerful. The tiger shark is dark brown or black above and white below, with a pattern of dark stripes along the sides. It is a solitary hunter that feeds on a wide range of prey, including fish, seals, dolphins",
+    "2": "The tiger shark is a large predatory fish with a robust body and a long, pointed snout. It has a dark brown or gray back and pale underside. The tiger shark is named for the dark stripes that run along its body. It is the only species of shark known to attack humans unprovoked."
+  },
+  "hammerhead": {
+    "0": "A hammerhead is a type of shark with a head that is shaped like a hammer.",
+    "1": "shark\n\nThe hammerhead shark is a unique-looking shark with a head that is shaped like a hammer. This shark is a carnivore and eats mostly fish. It is a fast swimmer and can reach speeds of up to 45 mph.",
+    "2": ""
+  },
+  "electric ray": {
+    "0": "Electric rays are a type of ray that can generate an electric shock. They have a smooth, slimy body and a long, whip-like tail.",
+    "1": "Electric rays are a type of fish that can generate an electric shock. They have a smooth, flat body and a long tail. They are usually brown or black in color.",
+    "2": "Electric rays are a type of ray that can generate an electric shock. They have a flattened body and a long tail."
+  },
+  "stingray": {
+    "0": "A stingray is a fish that has a long, thin, whip-like tail that is covered in sharp spines. The ray has a flattened body and a wide, flat head. It uses its tail to propel itself through the water and to defend itself from predators. The ray's diet consists of small fish, crabs, and shrimp.",
+    "1": "A stingray is a fish that has a long, thin, whip-like tail. It has a flattened body and a wide, triangular head. Stingrays are usually gray or brown in color. They have two small eyes on top of their head and five pairs of gill slits on the sides of their head. Stingrays have a sharp, barbed stinger on their tail that they use to defend themselves.",
+    "2": "A stingray is a fish that has a long, thin, whip-like tail that is armed with a sharp, barbed stinger on the end."
+  },
+  "barracouta": {
+    "0": "Barracouta are a type of fish that are found in the ocean. They have a long, slender body and a pointed head. They are a dark blue or black color, and have a silver stripe along their sides. They have a large, flat tail and a long dorsal fin. They eat small fish and other marine creatures.",
+    "1": "A barracouta is a type of fish that is found in the ocean. It has a long body and a large mouth. It is a predator that feeds on other fish.",
+    "2": "A barracouta is a type of fish that is found in the ocean. It is a long, slender fish that has a dark blue-green color. It has a long, pointed nose and a large mouth."
+  },
+  "eel": {
+    "0": "A eel is a long, thin fish that lives in freshwater and saltwater. They are often used as bait for fishing.",
+    "1": "A eel is a long, thin fish that lives in the ocean. They are usually gray or black in color and can grow up to three feet long. Eels can be found in both the Atlantic and Pacific oceans.",
+    "2": "A eel is a long, thin fish that lives in the ocean. They can grow up to 3 feet long and have a smooth, slimy body. Eels eat small fish, shrimp, and other invertebrates. They have a long, sharp tongue that they use to catch prey. Eels can also breathe air, so they can survive in shallow water or even out of the water for short periods of time."
+  },
+  "coho": {
+    "0": "salmon\n\nA coho salmon is a type of fish that lives in the Pacific Ocean. It is a type of salmon, and it is a silver color. It is smaller than other types of salmon, and it has a pinkish flesh.",
+    "1": "A coho is a type of salmon that is typically smaller than other salmon species. They are silver in color with a reddish hue on their sides. Coho are a popular game fish and are found in the Pacific Northwest and Alaska.",
+    "2": "Coho are a type of salmon that are typically found in the Pacific Ocean. They are smaller than other types of salmon, and typically have a silver color."
+  },
+  "rock beauty": {
+    "0": "A rock beauty is a type of fish that is found in the Pacific Ocean. It is a small fish that has a bright orange color and a long, slender body. It is a popular fish for aquariums because of its beautiful color and graceful swimming.",
+    "1": "A rock beauty is a type of fish that is found in the Pacific Ocean. They are a bright orange color and have a long, thin body. They live in rocky areas near the coast and can grow up to 16 inches long.",
+    "2": "A rock beauty is a type of fish that is found in the Pacific Ocean. They are a type of damselfish and can grow up to 12 inches long. They are a colorful fish and are often found near coral reefs."
+  },
+  "anemone fish": {
+    "0": "A clownfish is a small, brightly-colored fish that lives in tropical waters. It is a member of the family Pomacentridae, which includes damselfish and anemonefish.",
+    "1": "A clownfish is a small, brightly-colored fish found in tropical waters around the world. Anemonefish are a type of clownfish that live in anemones. They are very territorial and will fight other fish that come too close to their anemone.",
+    "2": ""
+  },
+  "sturgeon": {
+    "0": "A sturgeon is a large fish that lives in freshwater habitats. They have a long, smooth body and a wide, flat head. Sturgeons can grow up to six feet long and weigh up to 200 pounds. They are bottom-feeders that eat small fish, crustaceans, and insects. Sturgeons are native to North America, Europe, and Asia, but they are now found in many parts of the world.",
+    "1": "A sturgeon is a fish that lives in freshwater habitats. They are long and slender fish, and can grow up to 10 feet long and weigh over 400 pounds. Sturgeons have a smooth, scaleless body and a long, pointed snout. They are bottom-feeders, and use their barbels (whiskers) to feel around for food on the river or lake floor. Sturgeons can live for over 100 years, and are a threatened species due to overf",
+    "2": "A sturgeon is a large fish that lives in freshwater habitats. They have a long, pointed snout and a smooth body. Sturgeons can grow up to 6 feet long and weigh up to 200 pounds. They are bottom-feeders that eat small fish, crustaceans, and insects. Sturgeons are a threatened species due to overfishing."
+  },
+  "gar": {
+    "0": "land\n\nA garland is a type of decoration, typically made from flowers or leaves, that is hung around a person or object.",
+    "1": "land\n\nA garland is a type of decoration that is typically made from flowers, leaves, or other natural materials.",
+    "2": "land\n\nA garland is a type of decoration that is typically made from flowers, leaves, or other natural materials. It is often worn around the neck or head as a type of ornament."
+  },
+  "lionfish": {
+    "0": "A lionfish is a fish with a long, spiny body and a fan-like tail. It is usually orange or red with black stripes, and can grow up to 18 inches long. Lionfish are native to the Indo-Pacific region, but have been introduced to other parts of the world, where they are now considered a pest.",
+    "1": "A lionfish is a predatory fish with a long, spiny dorsal fin and a characteristic mane of filamentous tentacles. They are native to the Indo-Pacific, but have been introduced to other parts of the world, where they are now considered invasive species.",
+    "2": "A lionfish is a type of fish that has a long, spiny body and a fan-like tail. It is usually red, orange, or yellow in color, and has black stripes running down its sides. Lionfish can grow up to 18 inches long, and are found in tropical waters around the world. They are predatory fish, meaning they eat other fish, and are considered a nuisance to some fisheries."
+  },
+  "puffer": {
+    "0": "fish\n\nA puffer fish is a type of fish that is known for its ability to inflate its body with air or water. This makes the fish look much larger than it actually is, and can also be used as a defense mechanism to scare away predators. Puffer fish are typically small in size, but there are some species that can grow to be quite large. They are typically a brown or black color, and have a smooth, spiny skin.",
+    "1": "A puffer is a small, spiny fish that is found in both salt and fresh water. They are very popular in the aquarium trade and are known for their ability to inflate their bodies with water or air.",
+    "2": "fish\n\nA pufferfish is a small, round fish that can inflate its body to twice its size by sucking in water. It has a smooth, spiny skin and a long, thin tail. Pufferfish are found in warm, shallow waters in the Atlantic, Pacific, and Indian Oceans."
+  },
+  "kuvasz": {
+    "0": "A kuvasz is a large, white Hungarian sheepdog. They are bred for their livestock guarding abilities and are known for their protective nature. They are a versatile breed and can be used for a variety of purposes, including as a working dog, a family pet, or a show dog. They are a sturdy breed and are known for their intelligence and independent nature.",
+    "1": "A kuvasz is a large dog that is used as a livestock guardian. They are bred to be independent and fearless, and are known for their protective nature. They are also known for their white coat, which makes them easily visible in the snow.",
+    "2": "A kuvasz is a large, white Hungarian sheepdog. They are bred to be working dogs and are known for their intelligence, strength, and agility. They are loyal and protective of their family and make good guard dogs."
+  },
+  "schipperke": {
+    "0": "A Schipperke is a small, spitz-type dog that is typically black with a white muzzle and chest. They are a very active and playful breed that is known for being independent and stubborn. Schipperkes are also very loyal and protective of their family and home.",
+    "1": "The Schipperke is a small, spitz-type dog that is black with a thick, curly coat. They are a very active and playful breed that is known for being very loyal to their family. They are also very good with children.",
+    "2": "A Schipperke is a small Belgian breed of dog. They are about 13-16 inches tall and weigh 10-14 pounds. They have a black coat with a white blaze on their chest. They are a lively, playful breed that is good with children. They are also very good watchdogs."
+  },
+  "groenendael": {
+    "0": "A Groenendael is a Belgian Shepherd Dog. They are a large breed of dog, typically weighing around 70-100 pounds. They are a black and white breed, with a black coat and a white blaze on their chest. They are a herding dog, bred to herd livestock. They are a loyal and protective breed, and make good family dogs.",
+    "1": "A Groenendael is a Belgian Sheepdog. They are a black and white dog that is bred for herding. They are a medium sized dog that is intelligent and has a lot of energy. They are a great family dog and are good with children.",
+    "2": "A Groenendael is a Belgian Shepherd Dog breed. They are black and white in color and are known for their intelligence and obedience."
+  },
+  "malinois": {
+    "0": "A malinois is a type of Belgian shepherd. They are bred for their high level of intelligence and obedience, as well as their athleticism. They are often used as police dogs, because they are so good at tracking and apprehending suspects.",
+    "1": "A malinois is a Belgian shepherd dog that is bred for police work. They are known for their high energy level, intelligence, and obedience.",
+    "2": "A malinois is a Belgian shepherd dog that is bred for police work. They are high energy dogs that are very agile and have a strong work ethic. They are also very intelligent and are easy to train."
+  },
+  "briard": {
+    "0": "The briard is a breed of dog that was originally used as a herding dog. They are now often used as guard dogs or as pets. Briards are known for their long coats, which can be either wavy or curly. They are also known for their intelligence and their friendly temperament.",
+    "1": "The briard is a breed of dog that is known for its long, thick coat of fur. They are also known for being very loyal and protective of their owners.",
+    "2": "The briard is a large, herding dog that was originally bred in France. They are known for their black and white coats, and are often used as working dogs. Briards are loyal and protective, and make excellent family pets. They require a lot of exercise, and can be challenging to train."
+  },
+  "kelpie": {
+    "0": "A kelpie is a water spirit that is said to live in Scottish lochs and rivers. Kelpies are said to be able to transform themselves into horses, and often lure people into the water to drown them.",
+    "1": "A kelpie is a water spirit that takes the form of a horse. It is said to be able to lure people and horses into the water to drown them.",
+    "2": "A kelpie is a water spirit that is said to take the form of a horse. It is said to be able to lure people into the water where it will then drown them."
+  },
+  "komondor": {
+    "0": "A komondor is a large, white Hungarian sheepdog with cords of hair hanging from its body. It is a powerful dog with a calm disposition.",
+    "1": "The Komondor is a large, white Hungarian breed of livestock guardian dog. They are known for their long, corded coats which protect them from harsh weather and predators. Komondors are very protective of their family and flock, and are not recommended for first-time dog owners.",
+    "2": "The Komondor is a large, white dog with a corded coat. They are bred for guarding livestock and are known for their protective nature. Komondors are calm and independent dogs who are not typically fond of strangers. They are intelligent and require a lot of exercise."
+  },
+  "Old English sheepdog": {
+    "0": "The Old English Sheepdog is a large, shaggy dog that was bred to herd sheep. They are friendly and gentle, but can also be protective of their family and home. They are intelligent and easy to train.",
+    "1": "The Old English Sheepdog is a large, shaggy dog that was bred to herd sheep. They are friendly and good-natured, and make good family pets. They are intelligent and easy to train.",
+    "2": "The Old English Sheepdog is a large, shaggy dog breed which was developed in England from early herding types of dogs. They are a working breed, and are often used as farm dogs. They are known for their friendly nature, and are popular as family pets."
+  },
+  "Shetland sheepdog": {
+    "0": "A Shetland sheepdog is a small, hardy dog that is used for herding sheep. They are typically black and white in color, and have a thick coat that helps protect them from the cold weather. Shetland sheepdogs are intelligent and loyal dogs, and make good family pets.",
+    "1": "Shetland sheepdogs are a breed of dog that was originally bred for herding sheep. They are a small breed, typically weighing between 20 and 30 pounds, and are known for their thick, shaggy coats. They are typically friendly and outgoing dogs, and are popular pets.",
+    "2": "Shetland sheepdogs are small herding dogs that were bred to herd sheep in the Shetland Islands. They are intelligent, active, and agile dogs that are known for their thick, shaggy coats. Shetland sheepdogs are typically friendly and good with children."
+  },
+  "collie": {
+    "0": "A collie is a breed of dog that is typically white and black in color. They are known for their long fur, which can be straight or wavy. Collies are typically gentle and loyal animals, and are often used as working dogs.",
+    "1": "A collie is a type of dog that is known for its long, thick coat of fur. They are also known for being very friendly and good with children.",
+    "2": "A collie is a type of dog that is known for its long fur and floppy ears. They are often used as working dogs and are known for their intelligence and obedience."
+  },
+  "Border collie": {
+    "0": "Border collies are medium-sized, intelligent dogs that are bred to herd livestock. They are energetic and athletic, and require a lot of exercise. They are also known for their herding instincts and are often used as working dogs.",
+    "1": "Border collies are medium-sized, intelligent dogs that were bred to herd livestock. They are known for their high energy levels and love of working. Border collies are also very athletic and are often used in dog sports like agility and flyball.",
+    "2": "Border collies are bred to herd livestock. They are very energetic and have a lot of stamina. They are also very intelligent and have a strong work ethic."
+  },
+  "Bouvier des Flandres": {
+    "0": "A Bouvier des Flandres is a large, muscular dog with a thick, double coat. They are bred as working dogs and are known for their strength, intelligence, and loyalty. They are typically black and white or black and brown, and can weigh up to 100 pounds.",
+    "1": "A Bouvier des Flandres is a large, muscular dog with a thick coat of fur. They are bred for their herding and guarding abilities, and are known for their loyalty and protective nature. Bouviers are intelligent and easy to train, but can be quite independent and stubborn at times. They are typically good with children and make excellent family pets.",
+    "2": "Bouvier des Flandres are large, rugged dogs that are used as working dogs. They have a thick coat of fur that helps protect them from the cold weather. They are loyal and protective dogs that make good family pets."
+  },
+  "Rottweiler": {
+    "0": "A Rottweiler is a large, muscular dog with a black coat. They are known for their intelligence, strength, and loyalty. Rottweilers are often used as guard dogs.",
+    "1": "A Rottweiler is a large, muscular dog with a black coat. They are bred for their strength and intelligence, and make excellent guard dogs. Rottweilers are known for their calm and loyal temperaments, and are often used as service dogs.",
+    "2": "Rottweilers are a breed of dog that is typically medium to large in size, and has a stocky build. They are known for their black and tan coloring, and their intelligence and strength. Rottweilers are often used as working dogs, and are known for their loyalty and protective instincts."
+  },
+  "German shepherd": {
+    "0": "A German shepherd is a large, muscular dog with a thick coat of fur. They are known for their intelligence and obedience, and are often used as working dogs.",
+    "1": "A German shepherd is a large, muscular dog with a black and tan coat. They are known for their intelligence, strength, and obedience.",
+    "2": "The German shepherd is a large breed of dog that is popular for its strength, intelligence, and obedience. They are often used as working dogs in a variety of roles, including as police dogs, guide dogs, and military dogs. They are known for their black and tan coat, and their long, bushy tail."
+  },
+  "Doberman": {
+    "0": "A Doberman is a large, muscular dog with a short, sleek coat. They are known for their intelligence, strength, and loyalty.",
+    "1": "Dobermans are a breed of dog that are typically characterized by their sleek black coat, and pointy ears. They are known for being loyal and protective dogs, and make great guard dogs.",
+    "2": "Dobermans are a breed of dog that are known for their intelligence, strength, and loyalty. They are often used as guard dogs because of their ability to be aggressive when necessary."
+  },
+  "miniature pinscher": {
+    "0": "A miniature pinscher is a small breed of dog that is typically black and tan in color. They are bred to be a small dog and typically weigh between 7 and 10 pounds. They have a high energy level and make good watchdogs.",
+    "1": "A miniature pinscher is a small, spitz-type dog. They have a long, narrow head with a pointed muzzle, and small, pricked ears. They have a short, sleek coat that can be black, tan, or red in color, and a long tail. They are a lively and playful breed, and are often used as ratters. They weigh between 4 and 10 pounds and stand between 9 and 12 inches tall.",
+    "2": "A miniature pinscher is a small, spitz-type dog. They have a short, black and tan coat, and are typically around 10-12 inches tall and weigh around 8-10 pounds. They are an active, playful breed that is known for being alert and fearless."
+  },
+  "Greater Swiss Mountain dog": {
+    "0": "The Greater Swiss Mountain dog is a large, sturdy dog with a tri-colored coat. They are intelligent, friendly, and make good family pets. They are also good working dogs and can be used for herding, carting, and guarding.",
+    "1": "The Greater Swiss Mountain dog is a large, sturdy dog breed that is known for its black and white markings. These dogs are bred for their working abilities, and are known for being good with livestock and children. Greater Swiss Mountain dogs are also known for being calm and gentle, making them a good choice for a family pet.",
+    "2": "The Greater Swiss Mountain dog is a large, heavy dog with a tri-colored coat. They are bred as working dogs and are known for their strength, agility, and endurance. They are loyal and protective companions."
+  },
+  "Bernese mountain dog": {
+    "0": "The Bernese mountain dog is a large, sturdy dog with a tri-colored coat. They are bred as working dogs and are known for their friendly temperament and good disposition.",
+    "1": "The Bernese mountain dog is a large, sturdy dog with a thick coat of tri-colored fur. They are bred as working dogs and are known for their friendly, gentle nature.",
+    "2": "The Bernese mountain dog is a large, sturdy dog with a tri-colored coat. They are intelligent, good-natured dogs that make excellent family pets."
+  },
+  "Appenzeller": {
+    "0": "The Appenzeller is a breed of dog that is known for its intelligence, agility, and obedience. They are also known for being friendly and good with children.",
+    "1": "",
+    "2": "The Appenzeller is a breed of dog that is known for being friendly, alert, and intelligent. They are also known for being active and playful, and they make great family pets."
+  },
+  "EntleBucher": {
+    "0": "Mountain Dog\n\nThe EntleBucher Mountain Dog is a small to medium-sized breed of dog that is a member of the herding group. They are a sturdy, compact dog that is well-muscled and agile. They have a long, thick coat that is either red, black, or chocolate in color. They have a broad head with a black nose and dark eyes. They are an intelligent and active breed that is known for being friendly and good with children.",
+    "1": "Mountain Dog\n\nThe Entlebucher Mountain Dog is a small to medium-sized breed of dog that is native to the Swiss Alps. They are a working dog breed that is known for being agile, robust, and fearless. They are also known for being loyal and friendly companions.",
+    "2": "The Entlebucher Mountain Dog is a small to medium-sized herding dog that is native to the Entlebuch Valley in Switzerland. They are a sturdy, compact dog that is known for their intelligence, agility, and good temperament. They are excellent working dogs and are also popular as family pets."
+  },
+  "boxer": {
+    "0": "A boxer is a person who participates in the sport of boxing.",
+    "1": "",
+    "2": ""
+  },
+  "bull mastiff": {
+    "0": "A bull mastiff is a large, muscular dog that was bred for hunting and guarding. They are very protective of their family and home, and make excellent guard dogs. They are also very friendly and good with children.",
+    "1": "A bull mastiff is a large, muscular dog that was bred for hunting and guarding. They are very loyal and protective of their family and home. They are also very intelligent and easy to train.",
+    "2": "A bull mastiff is a large, muscular dog that was bred for hunting and guarding. They are usually black or brown, and have a short, smooth coat. They are very friendly and protective, and make great family pets."
+  },
+  "Tibetan mastiff": {
+    "0": "The Tibetan mastiff is a large, muscular dog that is native to the Himalayan region of Tibet. They are known for their thick coats of fur, which come in a variety of colors, including black, brown, gray, and white. They are loyal and protective dogs, and make excellent guard dogs.",
+    "1": "A Tibetan mastiff is a large, muscular dog with a thick coat of fur. They are bred for their strength and size, and make excellent guard dogs. They are typically black, brown, or white in color, and have a long, bushy tail.",
+    "2": "A Tibetan mastiff is a large, heavy dog with a thick coat of fur. They are bred for their strength and protective instincts, and make good guard dogs. They are usually black, brown, or gray in color, and can weigh up to 150 pounds."
+  },
+  "French bulldog": {
+    "0": "A French bulldog is a small, muscular dog with a wrinkled face and a short, smooth coat. They are known for their playful and affectionate personalities, and are often used as companion animals.",
+    "1": "A French bulldog is a small, muscular dog with a wrinkled face and a distinctive bat-like ear. They are known for their playful and affectionate nature, and make excellent pets.",
+    "2": "A French bulldog is a small, muscular dog with a wrinkled face and a distinctive bat-like ears. They are known for their playful and affectionate personality, and are often used as companion animals."
+  },
+  "Great Dane": {
+    "0": "A Great Dane is a large, muscular dog with a deep chest and a long tail. They have a short, smooth coat that can be any color, and they are known for their gentle temperament. Great Danes are excellent family dogs and are good with children. They are also good guard dogs and can be used for hunting.",
+    "1": "A Great Dane is a large, muscular dog with a deep chest and a long, straight tail. They have a short, dense coat that comes in a variety of colors, including black, fawn, harlequin, and merle. Great Danes are known for their gentle temperament and calm nature. They are often used as therapy dogs because of their loving nature.",
+    "2": "Great Danes are one of the largest dog breeds in the world. They are typically very friendly and make great family pets. They are also known for their great sense of humor and love of playtime."
+  },
+  "Saint Bernard": {
+    "0": "A Saint Bernard is a large breed of dog that is known for its thick coat of fur and its gentle temperament. These dogs are often used as rescue animals because of their large size and gentle nature. Saint Bernards are also known for their drooling habits, which is why they are often called \"slobber dogs.\"",
+    "1": "A Saint Bernard is a large, muscular dog with a long, shaggy coat. They are bred for their gentle temperament and are often used as rescue dogs. Saint Bernards are known for their drooling, and they often have a strong smell.",
+    "2": "A Saint Bernard is a large, muscular dog with a long, shaggy coat. They are bred for their strength and size, and are known for their gentle temperament and loyalty. Saint Bernards are often used as rescue dogs, as they are able to navigate difficult terrain and are gentle with injured people."
+  },
+  "Eskimo dog": {
+    "0": "Eskimo Dogs are a type of sled dog that is used in the Arctic. They are bred for their strength, endurance, and ability to work in cold weather. They have a thick coat of fur that helps protect them from the cold temperatures, and they are able to cover long distances quickly.",
+    "1": "Eskimo dogs are a type of sled dog that is used for transportation in cold climates. They are bred for their strength, endurance, and ability to work in harsh conditions. They have a thick coat of fur that helps protect them from the cold weather, and they are known for their friendly and outgoing personality.",
+    "2": "Eskimo dogs are a type of sled dog that is used for transportation in cold climates. They are bred for their strength, endurance, and ability to work in harsh conditions. Eskimo dogs have a thick coat of fur that helps protect them from the cold weather. They are also known for their friendly and loyal personality."
+  },
+  "malamute": {
+    "0": "A malamute is a large, heavy-set dog with a thick coat of fur. They are bred for sledding and are known for their strength and endurance. Malamutes are friendly and good-natured, but can be independent and stubborn. They require a lot of exercise and can be destructive if left alone for long periods of time.",
+    "1": "A malamute is a large, muscular dog that is used as a working dog in cold climates. Malamutes are bred to haul heavy loads over long distances, so they are very strong and have a lot of endurance. They are also bred to be very friendly and good with children. Malamutes are usually black, white, or gray in color, and they have a thick coat of fur that helps keep them warm in cold weather.",
+    "2": "A malamute is a large, powerful dog that is used as a working dog in cold climates. They are bred to haul heavy loads and have a thick coat of fur that helps protect them from the cold weather. Malamutes are also known for their friendly and outgoing personalities, and they make good family pets."
+  },
+  "Siberian husky": {
+    "0": "A Siberian husky is a medium-sized, thick-coated dog breed that is native to Siberia. They are known for their thick fur coats, which keep them warm in cold climates. They are also known for being very friendly and good with children.",
+    "1": "A Siberian husky is a medium-sized, thickly coated dog with a characteristic \"husky\" voice. They are bred as working dogs and are used as sled dogs, dogsledding, dogs for skijoring, weight pulling, carting, and dogs for racing.",
+    "2": "A Siberian husky is a medium-sized dog that is bred for sledding. They are known for their thick fur coats, which keep them warm in cold climates. They are also known for being friendly and good with children."
+  },
+  "affenpinscher": {
+    "0": "The Affenpinscher is a small breed of dog that is considered to be a toy dog. They are typically black and have a monkey-like face. They are a playful and active breed that is known for being good with children.",
+    "1": "Affenpinschers are small, sprightly dogs with monkey-like faces. They have black coats with rust-colored markings and are considered to be one of the oldest breeds of dog. Affenpinschers are active and playful, and make excellent watchdogs. They are also known to be very loyal and protective of their families.",
+    "2": "Affenpinschers are small, sprightly dogs with a monkey-like face. They have a shaggy coat that can be black, gray, or red, and a tail that curls over their back. Affenpinschers are alert and active, and make good watchdogs. They are also good with children."
+  },
+  "tiger beetle": {
+    "0": "A tiger beetle is a predatory beetle that is typically black or brown with stripes on its body. They are fast runners and use their speed to catch prey. Tiger beetles live in warm, sunny areas and can be found near water.",
+    "1": "A tiger beetle is a small, predatory beetle that is typically black or brown with stripes or spots on its body. They are fast and agile runners, and use their sharp mandibles to catch and eat other insects.",
+    "2": "A tiger beetle is a type of beetle that has a black body with yellow stripes. They are fast and agile, and can run up to 10 miles per hour. They eat insects and other small animals."
+  },
+  "ladybug": {
+    "0": "A ladybug is a small, red, beetle-like insect.",
+    "1": "A ladybug is a small, red beetle that is often found near gardens and fields. They are beneficial to gardens because they eat pests such as aphids.",
+    "2": "A ladybug is a small, red, beetle-like insect with black spots on its wings."
+  },
+  "ground beetle": {
+    "0": "Ground beetles are a type of beetle that live in the ground. They are usually black or brown and have a hard shell. They are good at digging and can often be found under rocks or in compost piles.",
+    "1": "Ground beetles are a type of beetle that is commonly found in the United States. They are typically black or brown in color and have a hard exoskeleton. They are typically found in moist environments such as gardens and woodlands. Ground beetles are known for their ability to dig quickly, and they are often used as natural pest control.",
+    "2": "Ground beetles are a type of beetle that live in the ground. They are usually black or brown, and have a hard shell. They are usually about 1-2 inches long. Ground beetles are predators, and eat other insects."
+  },
+  "long-horned beetle": {
+    "0": "A long-horned beetle is a type of beetle that has a long antenna.",
+    "1": "A long-horned beetle is a beetle that has a long horn on its head.",
+    "2": ""
+  },
+  "leaf beetle": {
+    "0": "A leaf beetle is a small, hard-bodied beetle that feeds on the leaves of plants. They are usually a bright green or yellow color, and they have a long, slender body. Leaf beetles can be found all over the world, and there are over 30,000 different species of them.",
+    "1": "A leaf beetle is a small, hard-bodied beetle that feeds on the leaves of plants. They are usually brightly colored and can be found all over the world.",
+    "2": "Leaf beetles are small, hard-bodied beetles that are usually less than 1/2 inch long. They are usually a dull black or brown color and have a long, slender body. Leaf beetles are found all over the world and there are thousands of different species. They are most commonly found on leaves and flowers where they eat the leaves or flowers. Some leaf beetles can be harmful to crops, while others are beneficial because they eat harmful insects."
+  },
+  "dung beetle": {
+    "0": "A dung beetle is a type of beetle that feeds on animal feces. They are often found near livestock areas, and can be helpful in getting rid of manure. Dung beetles have a variety of shapes and sizes, but all have a strong sense of smell that allows them to find food.",
+    "1": "Dung beetles are beetles that feed on animal dung. They are typically black or brown, and have a hard exoskeleton. They use their strong jaws to break apart the dung, and then eat the pieces. Dung beetles are important for keeping animal dung piles from becoming too large, and they also help to spread the dung around the environment.",
+    "2": "A dung beetle is a small, black beetle that lives in the tropics. It is about 1 cm long and has a hard, black shell. Dung beetles eat dung, or animal droppings. They roll the dung into a ball and carry it away to their home."
+  },
+  "rhinoceros beetle": {
+    "0": "A rhinoceros beetle is a large, black beetle with a horn on its head. It is a common sight in gardens and parks.",
+    "1": "A rhinoceros beetle is a large, black beetle with a horn on its head. It is a common beetle in North America.",
+    "2": ""
+  },
+  "weevil": {
+    "0": "A weevil is a small, brown, beetle-like insect that feeds on the leaves and fruits of plants.",
+    "1": "A weevil is a type of beetle that is typically small, has a long snout, and is brown or black in color. They are typically found in fields and gardens, where they feed on the leaves and stems of plants.",
+    "2": "A weevil is a small, beetle-like insect that feeds on the leaves, flowers, and fruits of plants. They are usually brown or black in color, and have a long snout that they use to pierce the plant tissue and suck out the sap. Weevils can cause significant damage to crops, and are a major agricultural pest."
+  },
+  "fly": {
+    "0": "A fly is a small, flying insect.",
+    "1": "A fly is a small, hard-bodied creature that is related to the bee and the wasp. They have two pairs of wings and a long, thin body. Flies are very common, and can be found almost anywhere. They are attracted to food, and will often land on people or animals to get a bite.",
+    "2": "A fly is a small, flying insect that is attracted to food or garbage."
+  },
+  "bee": {
+    "0": "A bee is a small, flying insect that collects nectar from flowers.",
+    "1": "A bee is a small, flying insect that collects nectar and pollen from flowers.",
+    "2": ""
+  },
+  "ant": {
+    "0": "An ant is a small, hard-bodied creature that lives in the underbrush. They are very important in the life of a colony of insects. Ants are able to travel long distances and build their nests quickly.",
+    "1": "A ant is a small, hard-bodied creature that lives in the underbrush. They are very important in the life of a colony of insects. Ants are able to travel long distances and build their nests quickly.",
+    "2": ""
+  },
+  "grasshopper": {
+    "0": "A grasshopper is a type of insect that is typically found in warm climates. They have long legs and antennae, and can jump long distances. Grasshoppers typically eat leaves and other vegetation.",
+    "1": "Grasshoppers are insects that have a long body, two pairs of wings, and a long, thin antenna. They are usually green or brown, and they eat plants.",
+    "2": "Grasshoppers are insects that have long antennae, two pairs of wings, and six legs. They are usually green or brown, and they eat plants."
+  },
+  "cricket": {
+    "0": "A cricket is a small, brown, jumping insect that is found all over the world. Crickets are related to grasshoppers, and they both belong to the order Orthoptera. Crickets are nocturnal, meaning they are active at night. They eat insects, flowers, and fruits.",
+    "1": "A cricket is a small, brown, six-legged insect that chirps to attract mates.",
+    "2": "A cricket is a small, brown, jumping insect that is related to the grasshopper. Crickets are nocturnal, meaning they are active at night. They have two antennae that they use to feel their way around. Crickets make a chirping noise by rubbing their wings together."
+  },
+  "walking stick": {
+    "0": "A walking stick is a stick that is used to help people walk. It is also used as a tool for balance and to help people cross difficult terrain.",
+    "1": "A walking stick is a stick that is used to help people walk. It is usually made of wood or metal.",
+    "2": "A walking stick is a stick that is used to help people walk."
+  },
+  "cockroach": {
+    "0": "A cockroach is a small, hard-bodied, brown insect that lives in dark, moist places.",
+    "1": "A cockroach is a small, hard-bodied, brown-colored insect that is typically found in warm, moist environments. They have a flattened body, six legs, and antennae. Cockroaches are omnivorous and can eat a variety of things, including decaying matter, sweets, and other insects. They are nocturnal and can be very difficult to get rid of.",
+    "2": "A cockroach is a small, hard-bodied, brownish-black insect. They are about 1/2 inch long and have a flattened body. Cockroaches have wings, but they seldom fly. They prefer to run. Cockroaches are nocturnal and live in dark, moist places."
+  },
+  "mantis": {
+    "0": "Mantises are predatory insects that have a triangular head, two large eyes, and a long, slender body. They typically eat insects, but can also prey on small lizards, frogs, and birds. Mantises are ambush predators that use their camouflage to blend in with their surroundings and then strike at their prey with lightning-fast reflexes.",
+    "1": "A mantis is a predatory insect that has a triangular head, two large eyes, and a long prothorax. They typically eat insects, but sometimes eat small lizards or frogs.",
+    "2": "A mantis is a predatory insect that typically preys on smaller insects. They have a triangular head, two large compound eyes, and long antennae. Mantises are typically green or brown in color, and can grow up to 6 inches in length."
+  },
+  "cicada": {
+    "0": "A cicada is a type of insect that is found in many parts of the world. They are typically about two inches long, and have a black body with red and orange markings. Cicadas are most well-known for their loud, high-pitched singing, which can be heard from a great distance.",
+    "1": "A cicada is a type of insect that is found in many parts of the world. They are typically about 2 inches long, and have a loud, high-pitched call that can be heard for long distances. Cicadas are harmless to humans, and feed on sap from trees and other plants.",
+    "2": "A cicada is a type of insect that is found in warm climates. They have a loud, high-pitched call that can be heard from a distance. Cicadas are typically black or brown in color and have a body that is about 1-1/2 inches long."
+  },
+  "leafhopper": {
+    "0": "Leafhoppers are small, green insects that suck sap from plants. They can be found on leaves and stems of plants.",
+    "1": "A leafhopper is a small, sap-sucking insect that feeds on the leaves of plants. They are typically green or brown in color, and have long, slender bodies. Leafhoppers can be very damaging to plants, and can spread diseases from one plant to another.",
+    "2": "Leafhoppers are small, green, and slender insects that feed on the sap of plants. They are usually found on leaves and stems, and they can jump long distances to escape predators."
+  },
+  "lacewing": {
+    "0": "A lacewing is a type of insect that has a delicate, lacy appearance. They are usually green or brown in color, and have large, transparent wings. Lacewings are beneficial insects, because they eat pests like aphids and other harmful insects.",
+    "1": "A lacewing is a type of insect that has a delicate, lacy appearance because of the many fine veins in its wings.",
+    "2": "A lacewing is a type of insect that has a wingspan of about 2 inches. They have a long, thin body and antennae. They are usually a light green or brown color."
+  },
+  "dragonfly": {
+    "0": "A dragonfly is a type of insect that has a large, thin body, two pairs of wings, and a long, thin tail. Dragonflies can be different colors, but most are green, blue, or black. They are usually found near water, where they catch and eat small insects.",
+    "1": "A dragonfly is a type of insect that has two pairs of wings and a long, slender body. They can be found near water and are often brightly colored. Dragonflies can fly very fast and are known to be very agile.",
+    "2": "A dragonfly is a type of insect that has a large, elongated head, two pairs of transparent wings, and a long, slender body. They are usually a bright green or blue color, and can be found near water. Dragonflies are predatory insects that eat other insects, and can be very territorial."
+  },
+  "damselfly": {
+    "0": "A damselfly is a small, delicate-looking dragonfly. They have thin, transparent wings and a slender body. Damselflies can be found near ponds and streams, where they catch insects in flight.",
+    "1": "A damselfly is a type of dragonfly. They are usually smaller than dragonflies, and have slender bodies. Damselflies have two pairs of wings, and can often be seen perched on vegetation with their wings outspread. They are usually brightly coloured, and can be quite territorial.",
+    "2": "Damselflies are a type of dragonfly. They are smaller than dragonflies, and their wings are usually a different color than their body. Damselflies can be found near water, and they often rest on the surface of the water."
+  },
+  "admiral": {
+    "0": "An admiral is a high-ranking military officer, typically in charge of a fleet or squadron of ships.",
+    "1": "An admiral is a high-ranking military officer in the navy.",
+    "2": ""
+  },
+  "ringlet": {
+    "0": "A ringlet is a type of curl that is tight and resembles a ring.",
+    "1": "A ringlet is a type of curl that is tight and forms a small ring.",
+    "2": "A ringlet is a type of curl that is tight and forms a small ring shape."
+  },
+  "monarch": {
+    "0": "A monarch is a type of ruler who typically inherits their position and holds it for life. Monarchs typically rule over a single country or territory and are often considered symbols of national unity.",
+    "1": "A monarch is a person who is the head of state of a monarchy.",
+    "2": "A monarch is a ruler who has complete control over a country or empire."
+  },
+  "cabbage butterfly": {
+    "0": "The cabbage butterfly is a small butterfly that is mostly white with black markings. It is found in Europe and North America.",
+    "1": "A cabbage butterfly is a type of butterfly that is found in North America. They are a medium-sized butterfly with a wingspan of 2-3 inches. They are a light brown color with a few darker spots on their wings. They are most commonly found near gardens and fields where cabbages or other plants in the mustard family are found.",
+    "2": "The cabbage butterfly is a small butterfly with a wingspan of about 2.5 inches. It is mostly white with black markings on the wings."
+  },
+  "sulphur butterfly": {
+    "0": "A sulphur butterfly is a small butterfly that is yellow and black.",
+    "1": "A sulphur butterfly is a small butterfly that is yellow and black. It is found in North America.",
+    "2": ""
+  },
+  "lycaenid": {
+    "0": "A lycaenid is a butterfly that is in the family Lycaenidae.",
+    "1": "A lycaenid is a butterfly that is in the family Lycaenidae. This family includes the blues, coppers, hairstreaks, and harvesters.",
+    "2": "Lycaenids are a family of small butterflies. They are typically blue or black in color, and have a characteristic pattern of spots on their wings."
+  },
+  "bannister": {
+    "0": "A bannister is a railing or balustrade that helps to prevent people from falling over the edge of a stairway.",
+    "1": "A bannister is a railing that helps you walk up or down a flight of stairs.",
+    "2": "A bannister is a railing that helps people walk up and down stairs safely."
+  },
+  "breakwater": {
+    "0": "A breakwater is a structure built out from the shoreline to protect a harbor or port from large waves.",
+    "1": "A breakwater is a structure that is built out from the shoreline to protect a harbor or port from large waves. Breakwaters are also used to create sheltered areas for boats to dock in.",
+    "2": "A breakwater is a structure built out from the shoreline to protect a harbor or harbor entrance from large waves."
+  },
+  "chainlink fence": {
+    "0": "Chainlink fences are made of metal and are very sturdy. They are often used to keep animals in or out of an area, or to keep people from entering or leaving an area.",
+    "1": "A chainlink fence is a fence made of metal chain links.",
+    "2": ""
+  },
+  "dam": {
+    "0": "A dam is a barrier that obstructs the flow of water. It is usually made of earth, stone, or concrete.",
+    "1": "A dam is a barrier constructed across a river to store water.",
+    "2": "A dam is a barrier that is built across a river to hold back water."
+  },
+  "grille": {
+    "0": "A grille is a type of metalwork that is used to protect or decorate an opening. It is often made from bars or wires that are arranged in a grid pattern.",
+    "1": "A grille is a metal frame with many small openings that allow air to flow into or out of a building or vehicle.",
+    "2": "A grille is a metal or plastic screen that is fixed in front of an air intake or outlet to protect people or objects from being sucked in or blown out."
+  },
+  "picket fence": {
+    "0": "A picket fence is a fence made of upright pickets, typically spaced a few inches apart and mounted on a railing or a frame.",
+    "1": "A picket fence is a fence made of upright pickets, typically wooden, that is used to enclose a yard, garden, or other property.",
+    "2": "A picket fence is a fence typically made of wood, with evenly spaced, vertical boards, also known as pickets."
+  },
+  "sliding door": {
+    "0": "A sliding door is a door that opens horizontally by sliding along a track.",
+    "1": "A sliding door is a door that opens horizontally by sliding on a track.",
+    "2": ""
+  },
+  "stone wall": {
+    "0": "A stone wall is a structure made of stones, typically a defensive wall.",
+    "1": "A stone wall is a structure made of stones, typically a supporting wall.",
+    "2": "A stone wall is a type of wall that is made from stones."
+  },
+  "turnstile": {
+    "0": "A turnstile is a device that allows one person to pass through it at a time. It is often used to control the flow of people into and out of a place.",
+    "1": "",
+    "2": "A turnstile is a device that allows one person to pass through at a time. It is often used to control access to a restricted area."
+  },
+  "worm fence": {
+    "0": "A worm fence is a type of fence made out of wire mesh. It is used to keep animals in or out of a specific area.",
+    "1": "A worm fence is a type of fence made from thin wooden stakes that are driven into the ground in a zigzag pattern. The fence is then covered in wire mesh to keep out animals. Worm fences are used to keep animals out of gardens and other areas.",
+    "2": "A worm fence is a type of fence made out of wire. It is used to keep animals in or out of an area."
+  },
+  "barrel": {
+    "0": "A barrel is a cylindrical container that is used to store liquids or solids.",
+    "1": "A barrel is a cylindrical container that is used to store or transport liquids or gases.",
+    "2": "A barrel is a cylindrical container that is used to store or transport liquids or solids."
+  },
+  "bathtub": {
+    "0": "A bathtub is a large, rectangular container that is filled with water and used to bathe in. They often have a faucet and a shower head attached to them, and some have a built-in seat.",
+    "1": "A bathtub is a large, rectangular container that is filled with water and used for bathing. They are typically made of porcelain, cast iron, or acrylic.",
+    "2": "A bathtub is a large, rectangular container that is filled with water and used to bathe in."
+  },
+  "beaker": {
+    "0": "A beaker is a container with a spout and a handle, typically used for holding liquids.",
+    "1": "A beaker is a type of container that is typically used to hold liquids. It is typically made of glass or plastic, and has a wide mouth that makes it easy to pour liquids in and out. Beakers are often used in laboratories to hold chemicals or to mix solutions.",
+    "2": "A beaker is a container with a spout and a handle, typically made of glass or plastic. It is used to hold or measure liquids."
+  },
+  "beer bottle": {
+    "0": "A beer bottle is a container made of glass, ceramic, or plastic that is used to store beer.",
+    "1": "A beer bottle is a bottle designed as a container for beer. Such bottles are usually made of glass and have a neck that is narrower than the body of the bottle. A cap is fitted to the neck to seal the bottle and prevent the beer from escaping.",
+    "2": "A beer bottle is a bottle that is designed to hold beer. It is usually made of glass and has a neck that is narrower than the body of the bottle. The neck is designed to fit a bottle opener so that the beer can be opened."
+  },
+  "bucket": {
+    "0": "A bucket is a container made of materials such as wood, plastic, or metal, with a handle and a spout. It is used to hold water, sand, or other materials.",
+    "1": "A bucket is a container with a handle and a spout, used for carrying water, sand, or other materials.",
+    "2": "list\n\nA bucket list is a list of things you want to do before you die."
+  },
+  "caldron": {
+    "0": "A caldron is a large pot or kettle used for boiling.",
+    "1": "A caldron is a large pot used for boiling. It is often made of cast iron and has a lid.",
+    "2": "A caldron is a large, metal pot that is used to cook food over an open fire."
+  },
+  "coffee mug": {
+    "0": "A coffee mug is a cup-shaped drinking vessel with a handle and a spout. It is used to drink coffee, tea, hot chocolate, and other hot beverages.",
+    "1": "A coffee mug is a cylindrical container made from ceramic or porcelain that is used to drink coffee. It has a handle on one side and a small spout on the other for drinking.",
+    "2": "A coffee mug is a cup typically used to drink coffee, tea, hot chocolate, or other hot beverages. It is usually cylindrical with a large handle and a small mouth."
+  },
+  "coffeepot": {
+    "0": "A coffeepot is a pot used to brew coffee. It is usually made of metal or ceramic, and has a spout and a handle. It is filled with water, and coffee grounds are added. The pot is then heated until the water boils, and the coffee is brewed.",
+    "1": "A coffeepot is a pot used to brew coffee. It is usually made of metal or ceramic, and has a spout and a handle. The coffee is brewed by pouring hot water over coffee grounds, and then the coffee is strained and served.",
+    "2": ""
+  },
+  "ladle": {
+    "0": "A ladle is a kitchen utensil used to scoop and pour liquids. It is typically made of metal or plastic and has a long, thin handle and a deep bowl.",
+    "1": "",
+    "2": "A ladle is a kitchen tool used to scoop and pour liquids. It is typically made of metal or plastic and has a long, thin handle and a deep bowl-shaped scoop."
+  },
+  "mortar": {
+    "0": "A mortar is a hand-held device used to break up or grind substances into smaller pieces.",
+    "1": "A mortar is a large, cylindrical, smooth-sided container made of either metal or pottery. It has a flat, round bottom and a slightly convex top. It is used to hold and mix ingredients for making a sauce or a dough.",
+    "2": "A mortar is a simple device that is used to pound things into smaller pieces. It is a bowl-shaped object with a hard, smooth surface that is attached to a handle. The object that is being pounded is placed in the mortar, and then the handle is used to pound it into smaller pieces."
+  },
+  "pill bottle": {
+    "0": "A pill bottle is a small, cylindrical container made of glass or plastic that is used to store medication. It has a small neck that is threaded so that the cap can be screwed on and off.",
+    "1": "",
+    "2": "A pill bottle is a small, cylindrical container made of glass or plastic that is used to store medication. It has a small neck that is narrower than the body of the bottle, and a cap that screws on or snaps into place."
+  },
+  "pitcher": {
+    "0": "A pitcher is a container with a spout used for pouring.",
+    "1": "",
+    "2": "A pitcher is a container that is used to hold liquid, often water or milk."
+  },
+  "pop bottle": {
+    "0": "A pop bottle is a type of bottle typically used to store carbonated beverages.",
+    "1": "A pop bottle is a container made of glass or plastic that is used to store soft drinks, water, or beer.",
+    "2": "A pop bottle is a bottle that is used to store carbonated beverages."
+  },
+  "rain barrel": {
+    "0": "A rain barrel is a container that collects and stores rainwater from a roof for later use, such as watering plants or gardens.",
+    "1": "A rain barrel is a container used to collect rainwater from a roof for later use, such as watering plants.",
+    "2": "A rain barrel is a container that collects rainwater from a roof. The water can then be used to water plants or for other purposes."
+  },
+  "teapot": {
+    "0": "A teapot is a pottery vessel used for steeping tea leaves in hot water. A typical teapot has a teapot-shaped pot with a handle, a spout, and a lid.",
+    "1": "A teapot is a pot that is used to brew tea. It is typically made of ceramic or porcelain and has a spout and a handle.",
+    "2": "A teapot is a container used to steep tea leaves in hot water in order to extract the flavor. Teapots come in a variety of shapes and sizes, and are often made of ceramic or porcelain."
+  },
+  "tub": {
+    "0": "A tub is a container that is typically made of metal, plastic, or porcelain, and is used to hold water for bathing, washing, or other purposes.",
+    "1": "al ligation\n\nA tubal ligation is a surgical procedure in which the fallopian tubes are cut, tied, or blocked so that an egg cannot travel from the ovary to the uterus.",
+    "2": "al ligation\n\nA tubal ligation is a surgical procedure in which the fallopian tubes are cut, tied, or blocked so that eggs cannot travel from the ovaries to the uterus."
+  },
+  "vase": {
+    "0": "A vase is a container used to hold flowers or other plants.",
+    "1": "A vase is a container typically used to hold flowers or other plants.",
+    "2": ""
+  },
+  "washbasin": {
+    "0": "A washbasin is a bowl-shaped container that is used for washing hands, dishes, or other objects. It is typically placed on a counter or vanity, and has a faucet that provides water.",
+    "1": "A washbasin is a bowl-shaped sink used for washing hands and face. It is usually installed in a bathroom or a kitchen.",
+    "2": "A washbasin is a bowl-shaped container used for washing hands, dishes, or other objects."
+  },
+  "water bottle": {
+    "0": "A water bottle is a container that is used to store water. It is made of plastic or glass, and has a screw-on cap.",
+    "1": "A water bottle is a container that is designed to hold water. It is typically made of plastic or glass, and it has a lid that can be screwed on or off.",
+    "2": "A water bottle is a container that is used to store water. It is typically made of plastic or glass and has a screw-on cap."
+  },
+  "water jug": {
+    "0": "A water jug is a container typically made from plastic or glass that is used to store water.",
+    "1": "A water jug is a container that is used to store water. It is often made of plastic or glass, and it has a spout that allows you to pour the water out.",
+    "2": "A water jug is a container that is used to store water. It is typically made out of plastic or glass, and has a spout that allows you to pour the water out."
+  },
+  "water tower": {
+    "0": "A water tower is a large, cylindrical container that is used to store water. It is often found in rural areas, where it is used to provide water to homes and farms.",
+    "1": "A water tower is a tall, cylindrical structure used to store water or other liquids.",
+    "2": ""
+  },
+  "whiskey jug": {
+    "0": "A whiskey jug is a container used to store whiskey. It is typically made of glass or ceramic, and has a handle and a spout.",
+    "1": "",
+    "2": "A whiskey jug is a jug made out of glass or ceramic that is used to store whiskey."
+  },
+  "wine bottle": {
+    "0": "A wine bottle is a bottle that is used to store wine.",
+    "1": "A wine bottle is a bottle that is used to store wine. Wine bottles come in a variety of shapes and sizes, and are made from a variety of materials.",
+    "2": ""
+  },
+  "alp": {
+    "0": "aca\n\nAlpacas are camelids that were domesticated in the Andes of South America about 5,000 years ago. Alpacas are kept for their fiber, which is used to make knitted and woven items, such as sweaters, hats, and blankets.",
+    "1": "aca\n\nAlpacas are domesticated animals that are kept as livestock. They are related to llamas and camels, and are used for their wool. Alpacas are typically about 3 feet tall at the shoulder, and weigh between 100 and 200 pounds. They have long, soft wool that is prized for its quality, and they are known for their gentle disposition.",
+    "2": "aca\n\nAlpacas are small, camel-like animals that are native to South America. They are gentle creatures that are used for their wool and meat. Alpacas are usually brown or white, and they have long, soft fur."
+  },
+  "cliff": {
+    "0": "A cliff is a steep slope or a vertical rock face.",
+    "1": "A cliff is a large, steep slope of rock, often with a sheer face.",
+    "2": "A cliff is a steep rock face."
+  },
+  "coral reef": {
+    "0": "A coral reef is a type of underwater reef typically found in warm, shallow waters of the ocean. Coral reefs are formed by colonies of coral animals that secrete a hard skeleton made of calcium carbonate.",
+    "1": "A coral reef is a ridge of rocks, sand, and coral that forms in tropical waters. Coral reefs are home to a wide variety of marine life, including fish, sea turtles, and dolphins.",
+    "2": "A coral reef is a underwater ecosystem that is made up of coral and other animals that live in or near coral reefs. Coral reefs are found in tropical and subtropical waters around the world."
+  },
+  "geyser": {
+    "0": "A geyser is a hot spring that intermittently ejects a column of water and steam.",
+    "1": "A geyser is a hot spring that periodically erupts with water and steam.",
+    "2": ""
+  },
+  "lakeside": {
+    "0": "A lakeside is a place where a lake is located. It can be a place to relax and enjoy the scenery, or a place for outdoor activities such as fishing, swimming, and boating.",
+    "1": "A lakeside is a beautiful place to relax and enjoy the scenery. It is usually a calm and peaceful place, with a few people fishing or boating. The water is usually clear and the sunsets are often stunning.",
+    "2": "When you think of a lakeside, you might imagine a tranquil and beautiful setting with a clear blue lake surrounded by green trees and rolling hills. A lakeside can be a great place to relax and enjoy the natural surroundings."
+  },
+  "promontory": {
+    "0": "A promontory is a high point of land extending into a body of water, often forming a peninsula.",
+    "1": "A promontory is a high point of land extending into a body of water.",
+    "2": ""
+  },
+  "sandbar": {
+    "0": "A sandbar is a ridge of sand that forms when waves erode the shoreline and deposit sand on the ocean floor. Sandbars can be found in both shallow and deep water, and can vary in size from a few feet to several miles wide.",
+    "1": "A sandbar is a ridge of sand that forms where the current of a river or other body of water slows and deposits sediment.",
+    "2": "A sandbar is a ridge of sand that forms where waves meet the shore."
+  },
+  "seashore": {
+    "0": "A seashore is a place where the land meets the sea. It is often a place where people go to enjoy the beach and the ocean.",
+    "1": "A seashore is a place where the land meets the sea. It is often a rocky or sandy area where people can go to enjoy the view, the sun, and the water.",
+    "2": "The seashore is a place where the land meets the ocean. It is a place where people can go to enjoy the ocean and the sand."
+  },
+  "valley": {
+    "0": "A valley is a low area between hills or mountains.",
+    "1": "A valley is a low-lying area between two hills, mountains, or other elevations.",
+    "2": ""
+  },
+  "volcano": {
+    "0": "A volcano is a mountain that has a hole in the top of it that hot molten rock (magma) and ash escape from. The molten rock and ash become solid as they cool and this makes a volcano.",
+    "1": "A volcano is a mountain that has a hole in the top of it that lava and ash come out of.",
+    "2": "A volcano is a mountain that has a hole in the top of it that hot molten rock and ash escape from."
+  },
+  "head cabbage": {
+    "0": "A head cabbage is a type of cabbage that is grown in a head or bulb form.",
+    "1": "A head cabbage is a type of cabbage that is grown for its edible leaves. It is round or oval in shape and has a smooth, firm, and dense texture. The leaves are green and are typically eaten raw or cooked.",
+    "2": "A head cabbage is a type of cabbage that is grown for its edible leaves. It is round or oval in shape and has a firm, dense texture. The leaves are green and smooth, and the head is surrounded by a thick, green wrapper."
+  },
+  "broccoli": {
+    "0": "A broccoli is a green vegetable that is a member of the cabbage family. It has small green florets and a thick, green stalk.",
+    "1": "Broccoli is a green vegetable that is a member of the cabbage family. It is a cruciferous vegetable and is high in fiber, vitamins, and minerals.",
+    "2": "Broccoli is a green vegetable that is a member of the cabbage family. It is a cruciferous vegetable and is related to cauliflower, cabbage, and Brussels sprouts."
+  },
+  "cauliflower": {
+    "0": "A cauliflower is a vegetable that is part of the cabbage family. It is a round, white vegetable that has a mild flavor.",
+    "1": "A cauliflower is a type of vegetable that has a white or light-colored head made up of small flower buds. The cauliflower head is surrounded by green leaves.",
+    "2": "A cauliflower is a vegetable that is white and has a head that is made up of many small flowers."
+  },
+  "zucchini": {
+    "0": "A zucchini is a type of squash that is long and thin with a dark green skin. It is a popular vegetable in the summer because it is a cool weather crop and can be grown in most parts of the country.",
+    "1": "A zucchini is a type of squash that is long and thin with a dark green skin. It is a popular vegetable in many parts of the world and can be eaten cooked or raw.",
+    "2": "A zucchini is a type of squash that is typically long and cylindrical in shape. It is a dark green color and has a smooth skin. Zucchini is a versatile vegetable and can be used in a variety of dishes."
+  },
+  "spaghetti squash": {
+    "0": "A spaghetti squash is a type of winter squash that is oblong in shape and has a hard, inedible skin. The flesh is orange in color and is stringy like spaghetti noodles.",
+    "1": "A spaghetti squash is a type of winter squash that is long and thin, with a yellow or orange flesh. When cooked, the flesh of a spaghetti squash separates into long, thin strands that resemble spaghetti noodles.",
+    "2": "A spaghetti squash is a type of winter squash that is long and thin with a smooth, slightly ribbed exterior. The flesh is orange and stringy, and when cooked, the flesh separates into spaghetti-like strands."
+  },
+  "acorn squash": {
+    "0": "A acorn squash is a type of winter squash that is small and has a dark green skin. It has a sweet, nutty flavor and is often used in dishes like soup or roasted with other vegetables.",
+    "1": "A acorn squash is a type of winter squash with a dark green skin and a sweet, orange flesh. It has a small, acorn-shaped body and a hard, brown shell.",
+    "2": "A acorn squash is a type of winter squash that is small and has a dark green skin. It has a sweet, nutty flavor and is often used in dishes like soup or risotto."
+  },
+  "butternut squash": {
+    "0": "A butternut squash is a type of winter squash that is long and cylindrical in shape. It has a smooth, cream-colored skin and a deep orange flesh. The flesh is often used in soups, stews, and other dishes.",
+    "1": "A butternut squash is a type of winter squash that is long and cylindrical in shape. It has a smooth, pale skin and a deep orange flesh. The flesh is sweet and nutty in flavor and is a good source of vitamins A and C.",
+    "2": "A butternut squash is a type of winter squash that is long and cylindrical in shape. It has a smooth, dark green skin and a orange flesh. The flesh is sweet and nutty in flavor."
+  },
+  "cucumber": {
+    "0": "A cucumber is a long, green vegetable that is related to the squash. It is often eaten raw in salads or as a snack.",
+    "1": "A cucumber is a fruit that is long and thin with a smooth skin. It is often eaten peeled and cold in salads or as a snack.",
+    "2": "Cucumbers are a type of fruit that is long and cylindrical in shape. They have a smooth skin and a mild flavor. Cucumbers are a good source of vitamin C and potassium."
+  },
+  "artichoke": {
+    "0": "The artichoke is a vegetable that is typically harvested in the spring. It has a thistle-like head that is filled with edible leaves. The leaves are removed one at a time and the edible portion is scraped off with a knife or your teeth. The artichoke heart is then eaten.",
+    "1": "A artichoke is a vegetable that is a type of thistle. It has a large, round head that is covered in sharp thorns. The head is made up of many small leaves that are edible. The edible part of the artichoke is the fleshy base of the leaves. The artichoke is a green vegetable that is grown in many parts of the world.",
+    "2": "A artichoke is a vegetable that is typically green and has a thistle-like appearance. It has a choke in the center that needs to be removed before eating."
+  },
+  "bell pepper": {
+    "0": "A bell pepper is a type of pepper that is usually green, red, or yellow in color. It is a type of Capsicum annuum.",
+    "1": "A bell pepper is a type of pepper that is shaped like a bell. It is green, red, or yellow.",
+    "2": ""
+  },
+  "cardoon": {
+    "0": "A cardoon is a vegetable that is related to the artichoke. It is a thistle-like plant that is grown for its edible stalks. The stalks are typically boiled or steamed and then served with a butter or sauce.",
+    "1": "A cardoon is a thistle-like plant that is related to the artichoke. It is a perennial that grows in temperate climates. The plant has large, silvery-green leaves and a thick, white stalk. The edible part of the plant is the stalk, which is peeled and cooked like a vegetable.",
+    "2": "A cardoon is a vegetable that is related to the artichoke. It is a tall, thistle-like plant that has large, prickly leaves. The edible part of the plant is the stem, which is white and crunchy."
+  },
+  "mushroom": {
+    "0": "A mushroom is a type of fungus. It is a spore-producing structure that is typically fleshy and has a cap and a stem. Mushrooms can be eaten raw or cooked.",
+    "1": "A mushroom is a fungus that typically grows in the dark, damp environment of forests or woodlands. They have a distinctive umbrella-shaped cap and a stem, and can vary in color from white to black. Some mushrooms are edible, while others are poisonous.",
+    "2": "A mushroom is a type of fungus that has a cap and a stem. The cap is typically smooth and the stem is typically white. Mushrooms can be eaten cooked or raw."
+  },
+  "Granny Smith": {
+    "0": "apple\n\nA Granny Smith apple is a type of green apple that is tart and firm.",
+    "1": "apple\n\nA Granny Smith apple is a green apple that is tart and firm.",
+    "2": ""
+  },
+  "strawberry": {
+    "0": "A strawberry is a small, red, sweet fruit that grows on a strawberry plant.",
+    "1": "A strawberry is a small, red, sweet fruit that is typically eaten as a snack.",
+    "2": "A strawberry is a small, red fruit that is often eaten as a dessert."
+  },
+  "orange": {
+    "0": "A orange is a type of fruit that is typically round, has a thick skin, and is orange in color. It is typically eaten as a snack or used in recipes.",
+    "1": "A orange is a citrus fruit that is round and has a thick rind. The inside is filled with segments that are filled with juice and seeds.",
+    "2": "A orange is a citrus fruit that is round or oval in shape and has a thick, tough skin. The inside of an orange is divided into segments that are filled with juicy, orange-flavored flesh."
+  },
+  "lemon": {
+    "0": "Lemons are sour, yellow fruits that are used to add flavor to food or to make lemonade.",
+    "1": "A lemon is a small, sour citrus fruit.",
+    "2": "Lemons are small, yellow fruits that are sour to the taste."
+  },
+  "fig": {
+    "0": "A fig is a sweet, soft fruit that is typically eaten fresh. It has a smooth skin and a sweet, juicy flesh.",
+    "1": "A fig is a sweet, soft fruit that is typically eaten fresh. It is a small, dark purple fruit that has a smooth skin and a sweet, jelly-like center.",
+    "2": "A fig is a sweet, succulent fruit that is typically eaten fresh. It is round or pear-shaped, and has a soft, smooth skin that can be eaten. The flesh is juicy and sweet, and the seeds are small and crunchy."
+  },
+  "pineapple": {
+    "0": "A pineapple is a tropical fruit that has a sweet, juicy, and acidic flesh. It is covered in a hard, spiny rind that can be removed to expose the fruit.",
+    "1": "A pineapple is a tropical fruit that grows on a large, spiny plant. The fruit is yellow or green, with a sweet, juicy flesh.",
+    "2": "A pineapple is a tropical fruit that has a hard, spiny outer shell and a sweet, juicy interior."
+  },
+  "banana": {
+    "0": "Bananas are a type of fruit that are typically yellow in color and have a sweet flavor. They are often eaten as a snack or used in recipes.",
+    "1": "Bananas are a type of fruit that come from a type of tree. They are long and yellow, and have a sweet taste.",
+    "2": "A banana is a sweet, yellow fruit that is often eaten as a snack."
+  },
+  "jackfruit": {
+    "0": "Jackfruit is a large, green fruit that is often mistaken for a vegetable. It has a sweet, fruity taste and a texture that is similar to that of a pineapple.",
+    "1": "A jackfruit is a large, green fruit that is often used in Southeast Asian cuisine. The fruit is covered in spikes and has a sweet, sticky flesh that is often used in desserts.",
+    "2": "Jackfruit is a large, green fruit that is often mistaken for a vegetable. It has a sweet and tangy flavor and a texture that is similar to that of a pineapple."
+  },
+  "custard apple": {
+    "0": "A custard apple is a fruit that is typically round, with a green or yellow skin, and a white, creamy flesh. The flesh is often described as tasting like custard or vanilla ice cream.",
+    "1": "A custard apple is a fruit that is shaped like a sphere and has a hard, green skin. The fruit is filled with a creamy, white flesh and has a sweet, vanilla-like flavor.",
+    "2": "A custard apple is a fruit that is round and has a green skin. The inside is white and has a custard-like texture."
+  },
+  "pomegranate": {
+    "0": "A pomegranate is a fruit that is round and has a hard skin. It is red or purple and has small seeds inside of it.",
+    "1": "A pomegranate is a fruit that is red or purple in color. It has a hard skin and contains many small seeds that are edible.",
+    "2": "A pomegranate is a fruit that is typically red or purple in color. It has a hard exterior and contains many small seeds that are edible."
+  }
+}
