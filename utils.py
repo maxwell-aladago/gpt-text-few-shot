@@ -279,6 +279,32 @@ class GatherLayer(torch.autograd.Function):
         return all_gradients[dist.get_rank()]
 
 
+def all_gather_batch(tensors):
+    """
+    Performs all_gather operation on the provided tensors.
+    """
+    # Queue the gathered tensors
+    world_size = get_world_size()
+    # There is no need for reduction in the single-proc case
+    if world_size == 1:
+        return tensors
+    tensor_list = []
+    output_tensor = []
+    for tensor in tensors:
+        tensor_all = [torch.ones_like(tensor) for _ in range(world_size)]
+        dist.all_gather(
+            tensor_all,
+            tensor,
+            async_op=False  # performance opt
+        )
+
+        tensor_list.append(tensor_all)
+
+    for tensor_all in tensor_list:
+        output_tensor.append(torch.cat(tensor_all, dim=0))
+    return output_tensor
+
+
 def all_gather_batch_with_grad(tensors):
     """
     Performs all_gather operation on the provided tensors.

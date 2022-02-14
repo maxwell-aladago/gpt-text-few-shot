@@ -12,14 +12,14 @@ from timm.optim import create_optimizer
 from timm.scheduler import create_scheduler
 from losses import SIMCLRLoss
 import utils
-from engine import train, zero_shot
+from engine import train, zero_shot, meta_test
 from tiered_imnet import TieredImageNet, MetaTieredImageNet
 
 
 def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--model', type=str, default='vit_tiny_patch16_224')
-    parser.add_argument('--batch-size', type=int, default=128, help='batch_size')
+    parser.add_argument('--batch-size', type=int, default=32, help='batch_size')
     parser.add_argument('--epochs', type=int, default=30, help='number of training epochs')
     parser.add_argument('--input-size', default=224, type=int, help='images input size')
     parser.add_argument("--word-embeddings", default="./data/gpt3_txt_bert_uncased_L-8_H-512_A-8_embed", type=str)
@@ -57,13 +57,13 @@ def parse_option():
                         help='Clip gradient norm (default: None, no clipping)')
     parser.add_argument('--momentum', type=float, default=0.9, metavar='M',
                         help='SGD momentum (default: 0.9)')
-    parser.add_argument('--weight-decay', type=float, default=0.005,
+    parser.add_argument('--weight-decay', type=float, default=0.05,
                         help='weight decay (default: 0.05)')
 
     # Learning rate schedule parameters
     parser.add_argument('--sched', default='cosine', type=str, metavar='SCHEDULER',
                         help='LR scheduler (default: "cosine"')
-    parser.add_argument('--lr', type=float, default=3e-5, metavar='LR',
+    parser.add_argument('--lr', type=float, default=5e-4, metavar='LR',
                         help='learning rate (default: 5e-4)')
     parser.add_argument('--lr-noise', type=float, nargs='+', default=None, metavar='pct, pct',
                         help='learning rate noise on/off epoch percentages')
@@ -76,16 +76,16 @@ def parse_option():
     parser.add_argument('--min-lr', type=float, default=1e-5, metavar='LR',
                         help='lower lr bound for cyclic schedulers that hit 0 (1e-5)')
 
-    parser.add_argument('--decay-epochs', type=float, default=30, metavar='N',
-                        help='epoch interval to decay LR')
+    # parser.add_argument('--decay-epochs', type=float, default=30, metavar='N',
+    #                     help='epoch interval to decay LR')
     parser.add_argument('--warmup-epochs', type=int, default=5, metavar='N',
                         help='epochs to warmup LR, if scheduler supports')
     parser.add_argument('--cooldown-epochs', type=int, default=5, metavar='N',
                         help='epochs to cooldown LR at min_lr, after cyclic schedule ends')
-    parser.add_argument('--patience-epochs', type=int, default=10, metavar='N',
-                        help='patience epochs for Plateau LR scheduler (default: 10')
-    parser.add_argument('--decay-rate', '--dr', type=float, default=0.1, metavar='RATE',
-                        help='LR decay rate (default: 0.1)')
+    # parser.add_argument('--patience-epochs', type=int, default=10, metavar='N',
+    #                     help='patience epochs for Plateau LR scheduler (default: 10')
+    # parser.add_argument('--decay-rate', '--dr', type=float, default=0.1, metavar='RATE',
+    #                     help='LR decay rate (default: 0.1)')
 
     # Augmentation parameters
     parser.add_argument('--color-jitter', type=float, default=0.4, metavar='PCT',
@@ -112,18 +112,18 @@ def parse_option():
                         help='Do not random erase first (clean) augmentation split')
 
     # * Mixup params
-    parser.add_argument('--mixup', type=float, default=0.8,
-                        help='mixup alpha, mixup enabled if > 0. (default: 0.8)')
-    parser.add_argument('--cutmix', type=float, default=1.0,
-                        help='cutmix alpha, cutmix enabled if > 0. (default: 1.0)')
-    parser.add_argument('--cutmix-minmax', type=float, nargs='+', default=None,
-                        help='cutmix min/max ratio, overrides alpha and enables cutmix if set (default: None)')
-    parser.add_argument('--mixup-prob', type=float, default=1.0,
-                        help='Probability of performing mixup or cutmix when either/both is enabled')
-    parser.add_argument('--mixup-switch-prob', type=float, default=0.5,
-                        help='Probability of switching to cutmix when both mixup and cutmix enabled')
-    parser.add_argument('--mixup-mode', type=str, default='batch',
-                        help='How to apply mixup/cutmix params. Per "batch", "pair", or "elem"')
+    # parser.add_argument('--mixup', type=float, default=0.8,
+    #                     help='mixup alpha, mixup enabled if > 0. (default: 0.8)')
+    # parser.add_argument('--cutmix', type=float, default=1.0,
+    #                     help='cutmix alpha, cutmix enabled if > 0. (default: 1.0)')
+    # parser.add_argument('--cutmix-minmax', type=float, nargs='+', default=None,
+    #                     help='cutmix min/max ratio, overrides alpha and enables cutmix if set (default: None)')
+    # parser.add_argument('--mixup-prob', type=float, default=1.0,
+    #                     help='Probability of performing mixup or cutmix when either/both is enabled')
+    # parser.add_argument('--mixup-switch-prob', type=float, default=0.5,
+    #                     help='Probability of switching to cutmix when both mixup and cutmix enabled')
+    # parser.add_argument('--mixup-mode', type=str, default='batch',
+    #                     help='How to apply mixup/cutmix params. Per "batch", "pair", or "elem"')
 
     # device and hardware args
     parser.add_argument('--num_workers', default=5, type=int)
@@ -206,23 +206,14 @@ def main(args):
     for epoch in range(args.epochs):
         train_stats = train(epoch, train_loader, model, criterion, optimizer, args.device)
         if epoch % 2 == 0:
-            zero_shot_stats = zero_shot(model_without_ddp, meta_loader, args)
+            # zero_shot_stats = zero_shot(model_without_ddp, meta_loader, args)
+            zero_shot_stats = meta_test(model_without_ddp, meta_loader, args)
 
             acc1 = zero_shot_stats['acc1']
             is_best = acc1 > best_acc1
             best_acc1 = max(best_acc1, acc1)
 
-            print("=> saving checkpoint")
-            utils.save_on_master({
-                'epoch': epoch + 1,
-                'state_dict': model.state_dict(),
-                'optimizer': optimizer.state_dict(),
-                # 'scaler': scaler.state_dict(),
-                'best_acc1': best_acc1,
-                'args': args,
-            }, is_best, args.output_dir)
-
-            print(f"Meta Accuracy of the network: {zero_shot_stats['acc1']: .1f}%, {zero_shot_stats['acc5']: .1f}%")
+            print(f"Meta Accuracy of the network: {zero_shot_stats['acc1']: .1f}%")
             print(f'Max meta test accuracy: {best_acc1:.2f}%')
 
             log_stats = {
@@ -237,6 +228,16 @@ def main(args):
                 with (output_dir / "log.txt").open("a") as f:
                     f.write(json.dumps(log_stats) + "\n")
 
+            print("=> saving checkpoint")
+            utils.save_on_master({
+                'epoch': epoch + 1,
+                'state_dict': model.state_dict(),
+                'optimizer': optimizer.state_dict(),
+                # 'scaler': scaler.state_dict(),
+                'best_acc1': best_acc1,
+                'args': args,
+            }, is_best, args.output_dir)
+
         lr_scheduler.step(epoch)
 
     total_time = time.time() - start_time
@@ -247,8 +248,8 @@ def main(args):
 if __name__ == '__main__':
     args = parse_option()
     if args.output_dir:
-        args.output_dir = f"{args.output_dir}/{args.dataset}/{args.model}/{args.num_ways}-way/{args.num_shots}-shot"
-
+        args.output_dir = f"{args.output_dir}/{args.dataset}/{args.model}/{args.num_ways}-way/{args.num_shots}-shot" \
+                          f"/meta-test-end-2"
         Path(args.output_dir).mkdir(parents=True, exist_ok=True)
 
     main(args)
