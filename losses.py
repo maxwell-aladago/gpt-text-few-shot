@@ -29,12 +29,17 @@ class SIMCLRLoss(nn.Module):
         self.masks = None
         self.last_local_batch_size = None
 
-    def forward(self, img_embed, text_embed):
+    def forward(self, img_embed, text_embed, labels):
         img_embed = F.normalize(img_embed, dim=-1, p=2)
 
         local_batch_size = img_embed.size(0)
 
-        k_a, k_b = utils.all_gather_batch_with_grad([img_embed, text_embed])
+        k_a, k_b, k_l = utils.all_gather_batch_with_grad([img_embed, text_embed, labels])
+
+        mask = labels.reshape(-1, 1).float() @ k_l.reshape(1, -1).float()
+        mask = (mask == torch.square(k_l)).long()
+        mask.fill_diagonal_(0)
+        mask = mask * 1e9
 
         if local_batch_size != self.last_local_batch_size:
             self.labels = local_batch_size * utils.get_rank() + torch.arange(
@@ -47,11 +52,11 @@ class SIMCLRLoss(nn.Module):
             self.last_local_batch_size = local_batch_size
 
         logits_aa = torch.matmul(img_embed, k_a.transpose(0, 1)) / self.tau
-        logits_aa = logits_aa - self.masks
+        logits_aa = logits_aa - self.masks - mask
         logits_bb = torch.matmul(text_embed, k_b.transpose(0, 1)) / self.tau
-        logits_bb = logits_bb - self.masks
-        logits_ab = torch.matmul(img_embed, k_b.transpose(0, 1)) / self.tau
-        logits_ba = torch.matmul(text_embed, k_a.transpose(0, 1)) / self.tau
+        logits_bb = logits_bb - self.masks - mask
+        logits_ab = (torch.matmul(img_embed, k_b.transpose(0, 1)) / self.tau) - mask
+        logits_ba = (torch.matmul(text_embed, k_a.transpose(0, 1)) / self.tau) - mask
 
         loss_a = F.cross_entropy(torch.cat([logits_ab, logits_aa], dim=1), self.labels)
         loss_b = F.cross_entropy(torch.cat([logits_ba, logits_bb], dim=1), self.labels)
@@ -121,23 +126,31 @@ class RankingLoss(nn.Module):
         self.labels = None
         self.last_local_batch_size = None
 
-    def forward(self, image_embed, text_embed):
+    def forward(self, image_embed, text_embed, labels):
         local_batch_size = image_embed.size(0)
+        image_embed = F.normalize(image_embed, dim=-1, p=2)
+
+        # gather features from all GPUs
+        image_embed_all, text_embed_all, labels_all = \
+            utils.all_gather_batch([image_embed, text_embed, labels])
+
+        mask = labels.reshape(-1, 1).float() @ labels_all.reshape(1, -1).float()
+        mask = (mask == torch.square(labels)).long()
+        mask.fill_diagonal_(0)
+        mask = mask * 1e9
 
         if local_batch_size != self.last_local_batch_size:
             self.labels = local_batch_size * utils.get_rank() + torch.arange(
                 local_batch_size, device=image_embed.device
             )
+
+            # total_batch_size = local_batch_size * utils.get_world_size()
             self.last_local_batch_size = local_batch_size
 
-        image_embed = F.normalize(image_embed, dim=-1, p=2)
+        # print(image_embed.shape, text_embed_all.shape, self.labels.shape)
 
-        # gather features from all GPUs
-        image_embed_all, text_embed_all = \
-            utils.all_gather_batch([image_embed, text_embed])
-
-        logits_per_image = self.logit_scale * (image_embed @ text_embed_all.t())
-        logits_per_text = self.logit_scale * (text_embed @ image_embed_all.t())
+        logits_per_image = (image_embed @ text_embed_all.t()) - mask
+        logits_per_text = (text_embed @ image_embed_all.t()) - mask
 
         loss_a = F.multi_margin_loss(logits_per_image, self.labels, margin=self.margin)
         loss_b = F.multi_margin_loss(logits_per_text, self.labels, margin=self.margin)

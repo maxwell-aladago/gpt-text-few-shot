@@ -1,0 +1,30 @@
+TODO:
+    1. create a self-supervised loss function [PD]
+    2. clean up the main function [PD]
+    3. compute sample embeddings from the generated text [DONE]
+    4. think carefully about which set to use for development? should I go ahead and process meta-validation set?
+    5. create a model with linear head on top-of vit-features [DONE]
+    6. Think and come up with creative ways for the supp and query evaluation phase
+
+
+TODO:
+    1. Ablation on importance of gpt-3 descriptions
+        a. model with gpt-3 generated descriptions [DONE]
+        b. model with hand designed templates [DONE]
+        c. model with randomly sampled tensors [DONE]
+        d. model with just integer labels [DONE]
+    2. Ablation of importance of initialization parameters
+        a. model with randomly initialized parameters
+        b. model initialized with pre-trained language model weights
+        c. model initialized with pre-trained wights from the base image dataset.
+    3. Ablations on the Loss:
+        a. train with SIMCLR loss [DONE]
+        b. training with ranking loss
+        c. Train with CLIP loss
+TODO:
+    1. Update data-loader
+        - to return text_embedding for support set
+        - correct original labels for query set
+TODO: REMEMBER
+    1. Current embeddings use the prompt
+        a. describe a {}

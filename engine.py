@@ -22,12 +22,12 @@ def train(epoch, train_loader, model, criterion, optimizer, device):
 
     for samples, word_embed, target in metric_logger.log_every(train_loader, print_freq, header):
         samples = samples.to(device, non_blocking=True)
-        # target = target.to(device, non_blocking=True)
+        target = target.to(device, non_blocking=True)
         word_embed = word_embed.to(device, non_blocking=True)
 
         with torch.cuda.amp.autocast():
             output = model(samples)
-            loss_dict = criterion(output, word_embed)
+            loss_dict = criterion(output, word_embed, target)
             loss = loss_dict['loss']
 
         loss_value = loss.item()
@@ -164,8 +164,8 @@ def zero_shot(net, test_loader, args):
     return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
 
 
-def train_meta_model(support_inputs, device, out_dim=512, max_iters=200):
-    supp_x, supp_text, supp_y = support_inputs[0], support_inputs[1], support_inputs[2]
+def train_meta_model(supp_x, supp_text, supp_y, device, out_dim=512, max_iters=200):
+    # supp_x, supp_text, supp_y = support_inputs[0], support_inputs[1], support_inputs[2]
 
     in_dim = supp_x.shape[-1]
     model = MLPHead(in_chans=in_dim, rep_size=out_dim)
@@ -173,13 +173,14 @@ def train_meta_model(support_inputs, device, out_dim=512, max_iters=200):
     model = model.to(device)
     supp_x = supp_x.to(device)
     supp_y = supp_y.to(device)
-    supp_text = supp_text.to(device)
+    supp_text = supp_text.to(device, non_blocking=True).squeeze()
 
     optimizer = torch.optim.SGD(model.parameters(), lr=0.01, weight_decay=0.001, momentum=0.9)
     criterion = MetaSIMCLRLoss()
 
     acc_ = []
     loss_ = []
+
     for i in range(max_iters):
         optimizer.zero_grad()
         pred_x = model(supp_x)
@@ -198,32 +199,32 @@ def meta_test_proj(net, test_loader, args):
     metric_logger = utils.MetricLogger(delimiter="  ")
     header = 'Meta_Test:'
 
-    for i, (supp_inputs, query_x, query_y) in enumerate(metric_logger.log_every(test_loader, 100, header)):
-        supp_x, supp_y = supp_inputs[0], supp_inputs[2]
+    for i, (supp_x, supp_text, supp_y, query_x, query_y) in enumerate(metric_logger.log_every(test_loader, 100, header)):
+        # supp_x, supp_text, supp_y = supp_inputs[0], supp_inputs[1], supp_inputs[2]
 
         bs, n_s, c, h, w = supp_x.size()
         supp_x = supp_x.view(bs * n_s, c, h, w)
-        n_q = query_x.shape[1]
-        query_x = query_x.view(bs * n_q, c, h, w)
+        # n_q = query_x.shape[1]
+        # query_x = query_x.view(bs * n_q, c, h, w)
         supp_y = supp_y.reshape(bs * n_s)
-        query_y = query_y.reshape(bs * n_q)
-
-        supp_x = supp_x.to(args.device, non_blocking=True)
-        with torch.no_grad():
-            supp_x = net(supp_x, use_hidden_state=True)
-            supp_x = supp_x / supp_x.norm(dim=1, keepdim=True)
-
-        supp_inputs[0] = supp_x
-        supp_inputs[2] = supp_y
-        model, supp_acc, supp_loss = train_meta_model(supp_inputs, out_dim=args.n_ways, device=args.device0)
-        supp_x = supp_x.detach().cpu()
-
+        # query_y = query_y.reshape(bs * n_q)
+        model = None
+        # supp_x = supp_x.to(args.device, non_blocking=True)
+        # with torch.no_grad():
+        #     supp_x = net(supp_x, return_base_features=True)
+        #     supp_x = supp_x / supp_x.norm(dim=1, keepdim=True)
+        #
+        # # supp_inputs[0] = supp_x
+        # # supp_inputs[2] = supp_y
+        # model, supp_acc, supp_loss = train_meta_model(supp_x, supp_text, supp_y, out_dim=512, device=args.device)
+        # supp_x = supp_x.detach().cpu()
         acc1, acc5 = eval_zero_shot(net, model, test_loader.dataset.we_meta, query_x, query_y, args.device)
+
         batch_size = query_y.shape[0]
         metric_logger.meters['acc1'].update(acc1, n=batch_size)
         metric_logger.meters['acc5'].update(acc5, n=batch_size)
-        metric_logger.meters['supp_loss'].update(supp_loss, n=batch_size)
-        metric_logger.meters['supp_acc'].update(supp_acc, n=batch_size)
+        # metric_logger.meters['supp_loss'].update(supp_loss, n=batch_size)
+        # metric_logger.meters['supp_acc'].update(supp_acc, n=batch_size)
 
     metric_logger.synchronize_between_processes()
     print('* Acc@1 {top1.global_avg:.3f} '.format(top1=metric_logger.acc1))
@@ -233,7 +234,7 @@ def meta_test_proj(net, test_loader, args):
 
 def eval_zero_shot(base_model, linear_proj, word_embed, query_x, query_y, device):
     base_model.eval()
-    linear_proj.eval()
+    # linear_proj.eval()
     word_embed = word_embed.to(device)
     with torch.torch.no_grad():
         bs, n_q, c, h, w = query_x.shape
@@ -245,8 +246,9 @@ def eval_zero_shot(base_model, linear_proj, word_embed, query_x, query_y, device
 
         query_x = base_model(query_x, return_base_features=False)
         query_x = query_x / query_x.norm(dim=1, keepdim=True)
-
-        query_x = linear_proj(query_x)
+        # print(query_x.shape)
+        # exit()
+        # query_x = linear_proj(query_x)
 
         logits_per_image = query_x @ word_embed.t()
 
